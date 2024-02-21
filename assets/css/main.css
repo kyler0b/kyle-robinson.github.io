@@ -2191,10 +2191,10 @@ input, select, textarea {
 		}
 
 		#r_frame iframe{
-			width:100%;
+			width:1000px;
     		height:100%;
 		}
 		#r_frame{
-			width:100%;
+			width:1000px;
     		height:100%;
 		}
