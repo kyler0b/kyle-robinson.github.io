@@ -1,0 +1,5 @@
+$ dig WWW.KYLE-ROBINSON.COM +nostats +nocomments +nocmd
+> ;WWW.KYLE-ROBINSON.COM.                    IN      A
+> WWW.KYLE-ROBINSON.COM.             3592    IN      CNAME   kyler0b.github.io.
+> kyler0b.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+> GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
