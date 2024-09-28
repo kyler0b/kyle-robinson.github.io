@@ -23,6 +23,7 @@
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
 						<a href="#resume" class="icon solid fa-file"><span>Resume</span></a>
+						<a href="#email" class="icon solid fa-email"><span>Email</span></a>
 						<a href="https://www.linkedin.com/in/kyle-robinson-04bb4b275/" class="fab fa-linkedin"><span>Linkedin</span></a>
 					</nav>
 
@@ -63,6 +64,31 @@
 									</div>
 								</section>
 							</article>
+
+						<!-- Email -->
+						<article id="email" class="panel">
+							<header>
+								<h2>Resume</h2>
+							</header>
+
+							<body>
+								<form action="send_email.php" method="post">
+								  <label for="firstName">First Name:</label>
+								  <input type="text" id="firstName" name="firstName" required>
+								  <br>
+								 
+								  <label for="email">Email Address:</label>
+								  <input type="email" id="email" name="email" required>
+								  <br>
+								 
+								  <label for="message">Message:</label>
+								  <textarea id="message" name="message" required></textarea>
+								  <br>
+								 
+								  <input type="submit" value="Send">
+								</form>
+							</body>
+						</article>
 
 						<!-- Resume -->
 							<article id="resume" class="panel">
