@@ -3,7 +3,7 @@ $errors = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get POST data
-    $name = isset($_POST['name']) ? strip_tags(trim($_POST['name'])) : '';
+    $name = isset($_POST['firstname']) ? strip_tags(trim($_POST['firstname'])) : '';
     $email = isset($_POST['email']) ? trim($_POST['email']) : '';
     $message = isset($_POST['message']) ? strip_tags(trim($_POST['message'])) : '';
 
