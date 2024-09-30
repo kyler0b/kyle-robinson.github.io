@@ -54,15 +54,15 @@
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
 											<img src="images/pic01.jpg" alt="" class="image fit">
-											<a href="#projects"><i class="fa-solid fa-arrow-up-right-from-square"></i>Find out more</a>
+											<a href="#project_1"><i class="fa-solid fa-arrow-up-right-from-square"></i>Find out more</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<img src="images/pic02.jpg" alt="" class="image fit">
-											<a href="#projects"><i class="fa-solid fa-arrow-up-right-from-square"></i>Find out more</a>
+											<a href="#project_2"><i class="fa-solid fa-arrow-up-right-from-square"></i>Find out more</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<img src="images/pic03.jpg" alt="" class="image fit">
-											<a href="#projects"><i class="fa-solid fa-arrow-up-right-from-square"></i>Find out more</a>
+											<a href="#project_3"><i class="fa-solid fa-arrow-up-right-from-square"></i>Find out more</a>
 										</div>
 									</div>
 								</section>
@@ -92,42 +92,28 @@
 							<iframe src="./Robinson_Resume.pdf" width="100%" height="1000px"></iframe>
 						</article>
 
-						
-
-						<!-- Project Panel -->
-						<article id="projects" class="panel">
-	
-							<div class = "navbar">
-								<a href="#project_1" onclick="show('project_1')">Project 1</a>
-								<a href="#project_2" onclick="show('project_2')">Project 2</a>
-								<a href="#project_3" onclick="show('project_3')">Project 3</a>
-							</div>
-
-							<!-- Project P1 --> 
-							<div id="project_1" class="panel" display="none">
-								<header>
-									<h2>Project 1</h2>
-								</header>
-
-							</div>
-
-							<!-- Project P2 -->
-							<div id="project_2" class="panel" display="none">
-								<header>
-									<h2>Project 2</h2>
-								</header>
-
-							</div>
-
-							<!-- Project P3 -->
-							<div id="project_3" class="panel" display="none">
-								<header>
-									<h2>Project 3</h2>
-								</header>
-							</div>
+						<!-- Project P1 --> 
+						<article id="project_1" class="panel" display="none">
+							<header>
+								<h2>Project 1</h2>
+							</header>
 
 						</article>
-								
+
+						<!-- Project P2 -->
+						<article id="project_2" class="panel" display="none">
+							<header>
+								<h2>Project 2</h2>
+							</header>
+
+						</article>
+
+						<!-- Project P3 -->
+						<article id="project_3" class="panel" display="none">
+							<header>
+								<h2>Project 3</h2>
+							</header>
+						</article>	
 					</div>
 
 				<!-- Footer -->
@@ -148,13 +134,3 @@
 
 	</body>
 </html>
-
-<script>
-
-	function show(a)
-	{
-		var s = document.getElementById(a);
-		s.style.display = "block";
-	}
-	
-</script>
