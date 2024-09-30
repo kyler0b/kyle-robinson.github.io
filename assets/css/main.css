@@ -2199,20 +2199,9 @@ input, select, textarea {
     		height:100%;
 		}
 		.center{
-			position: absolute;
+			position: relative;
   			top: 50%;
   			left: 50%;
   			transform: translate(-50%, -50%);
 		}
-		.left{
-			position: absolute;
-  			top: 50%;
-  			left: 5%;
-  			transform: translate(-50%, -50%);
-		}
-		.right{
-			position: absolute;
-  			top: 50%;
-  			left: 95%;
-  			transform: translate(-50%, -50%);
-		}
+		
