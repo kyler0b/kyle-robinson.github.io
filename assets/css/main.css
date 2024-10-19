@@ -2202,4 +2202,5 @@ input, select, textarea {
 .image2 {
 	position: relative;
 	left: -100px;
+	border-radius:50% 50% 0 0;
 }
