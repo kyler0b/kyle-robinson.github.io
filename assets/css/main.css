@@ -2198,3 +2198,8 @@ input, select, textarea {
 			width:1000px;
     		height:100%;
 		}
+
+.image2 {
+	position: relative;
+	left: -100px;
+}
